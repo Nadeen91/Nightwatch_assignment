@@ -20,12 +20,13 @@ const newYorkLocation = '#body > div.nav-wrapper.scroll > nav > ul > li:nth-chil
 const newJerseyLocation = '#body > div.nav-wrapper.scroll > nav > ul > li:nth-child(4) > ul > li:nth-child(9) > a'
 const portlandLocation = '#body > div.nav-wrapper.scroll > nav > ul > li:nth-child(4) > ul > li:nth-child(10) > a'
 const philadelphiaLocation = '#body > div.nav-wrapper.scroll > nav > ul > li:nth-child(4) > ul > li:nth-child(11) > a'
+const locationImageSrc = '#body > div.container.location-detail > div > div.grid-12.grid-md-5.grid-xl-6 > div > div:nth-child(1) > div > a'
 
-describe('Menu Varification Test Suite', function() {
+describe('Designory Varification Test Suite', function() {
     beforeEach(function(browser) {
         browser.url('https://www.designory.com')
     })
-    test.skip('Menu contain six options', function(browser) {
+    test('Menu contain six options', function(browser) {
         browser.click(menu)
         browser.expect.element(workMenuOption).to.be.visible
         browser.expect.element(aboutMenuOption).to.be.visible
@@ -130,7 +131,7 @@ describe('Menu Varification Test Suite', function() {
         browser.click('#nav-toggle > button > span.navicon')
     })
 
-    test.skip('Cookie Verification', function(browser) {
+    test('Cookie Verification', function(browser) {
         browser.click('#cookie-container > div > button')
         browser.refresh()
         browser.assert.not.visible('#cookie-container > div > button')
@@ -146,13 +147,18 @@ describe('Menu Varification Test Suite', function() {
         browser.click(menu)
         browser.click(locationsMenuOption)
         browser.click(chicagoLocation)
-        browser.expect.element('#body > div.immersive-hero > div.immersive-content-box > div > h1').text.to.contain('CHI')
+        browser.expect.element('#body > div.immersive-hero > div.immersive-content-box > div > h1').text.to.equal('CHI')
 
-        browser.expect.element('#body > div.container.location-detail > div > div.grid-12.grid-md-5.grid-xl-6 > div > div:nth-child(2) > div > p').text.to.contain('+1 312 729 4500')
-        //browser.expect.element('#body > div.container.location-detail > div > div.grid-12.grid-md-7.grid-xl-6 > h2').to.have.fontsize
+        browser.expect.element('#body > div.container.location-detail > div > div.grid-12.grid-md-5.grid-xl-6 > div > div:nth-child(2) > div > p').text.to.equal('Phone: +1 312 729 4500')
+        
         browser.getElementSize('h2', function(result) {
             console.log('result', result);
           });
+          
+
+            
+         browser.expect.element(locationImageSrc).value.to.contain('https://maps.googleapis.com/maps/api/staticmap?center= 225 N Michigan Ave, Suite 700 Chicago, IL 60601&zoom=16.5&markers= 225 N Michigan Ave, Suite 700 Chicago, IL 60601&size=400x150&key=AIzaSyAkAXQMgbxLGj6ZFqVAAR8JT4-5LaWKfIY')
+
 
     
     })
