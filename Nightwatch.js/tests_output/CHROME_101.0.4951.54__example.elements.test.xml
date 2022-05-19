@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="example.elements.test"
+    errors="1" failures="0" hostname="" id="" package="example.elements.test" skipped="0"
+    tests="1" time="0.004000" timestamp="">
+  
+    <testcase name="click everything" classname="example.elements.test" time="0.004000" assertions="0">
+    <error message="click is not defined" type="error"><![CDATA[
+    ReferenceError: click is not defined
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\grets\OneDrive\Desktop\Nightwatch.js\Nightwatch.js\tests\example.elements.test.js:46:9)
+    at Context.call (C:\Users\grets\OneDrive\Desktop\Nightwatch.js\Nightwatch.js\node_modules\nightwatch\lib\testsuite\context.js:430:35)
+    at TestCase.run (C:\Users\grets\OneDrive\Desktop\Nightwatch.js\Nightwatch.js\node_modules\nightwatch\lib\testsuite\testcase.js:58:31)
+    at Runnable.__runFn (C:\Users\grets\OneDrive\Desktop\Nightwatch.js\Nightwatch.js\node_modules\nightwatch\lib\testsuite\index.js:690:80)
+    at Runnable.run (C:\Users\grets\OneDrive\Desktop\Nightwatch.js\Nightwatch.js\node_modules\nightwatch\lib\testsuite\runnable.js:126:21)
+    at TestSuite.createRunnable (C:\Users\grets\OneDrive\Desktop\Nightwatch.js\Nightwatch.js\node_modules\nightwatch\lib\testsuite\index.js:797:33)
+    at TestSuite.handleRunnable (C:\Users\grets\OneDrive\Desktop\Nightwatch.js\Nightwatch.js\node_modules\nightwatch\lib\testsuite\index.js:802:33)
+    at C:\Users\grets\OneDrive\Desktop\Nightwatch.js\Nightwatch.js\node_modules\nightwatch\lib\testsuite\index.js:690:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async DefaultRunner.runTestSuite (C:\Users\grets\OneDrive\Desktop\Nightwatch.js\Nightwatch.js\node_modules\nightwatch\lib\runner\test-runners\default.js:73:7)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       ReferenceError: click is not defined
+       at DescribeInstance.&lt;anonymous&gt; (C:\Users\grets\OneDrive\Desktop\Nightwatch.js\Nightwatch.js\tests\example.elements.test.js:46:9)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name="example.assertions.test"
+    errors="0" failures="0" hostname="" id="" package="example" skipped="0"
+    tests="2" time="4.400" timestamp="">
+  
+    <testcase name="Deal with alerts with assertions" classname="example.assertions.test" time="4.151" assertions="13">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Test for attributes" classname="example.assertions.test" time="0.2490" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       NoSuchElementError: An error occurred while running .click() command on &lt;body &gt; app-root &gt; div &gt; div &gt; div &gt; app-login &gt; div &gt; div &gt; form &gt; div:nth-child(3) &gt; div &gt; button&gt;: Timed out while waiting for element &#34;body &gt; app-root &gt; div &gt; div &gt; div &gt; app-login &gt; div &gt; div &gt; form &gt; div:nth-child(3) &gt; div &gt; button&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+ {&#34;error&#34;:{&#34;name&#34;:&#34;WebDriverError&#34;,&#34;remoteStacktrace&#34;:&#34;&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+       at DescribeInstance.&lt;anonymous&gt; (C:\Users\grets\OneDrive\Desktop\Nightwatch.js\Nightwatch.js\tests\example\example.elements.test.js:46:10)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

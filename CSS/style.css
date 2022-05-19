@@ -1,0 +1,27 @@
+h1 {
+    color: red
+}
+
+h1.heading {
+    color: purple;
+}
+
+h2 {
+    color: blue
+}
+
+.heading {
+    color: green;
+}
+
+#blah {
+    color: orange;
+}
+
+/* div h1 {
+    color: red;
+}
+
+div > div > h1 {
+    color: purple;
+} */

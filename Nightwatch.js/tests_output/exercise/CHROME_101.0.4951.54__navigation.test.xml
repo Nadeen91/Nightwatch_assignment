@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="4">
+
+  <testsuite name="exercise.navigation.test"
+    errors="0" failures="0" hostname="" id="" package="exercise" skipped="0"
+    tests="4" time="1.823" timestamp="">
+  
+    <testcase name="Navigate to a URL" classname="exercise.navigation.test" time="0.01100" assertions="0">
+    </testcase>
+  
+    <testcase name="Navigation Test 2" classname="exercise.navigation.test" time="0.01300" assertions="0">
+    </testcase>
+  
+    <testcase name="Back and Forth" classname="exercise.navigation.test" time="0.01300" assertions="0">
+    </testcase>
+  
+    <testcase name="Test the title" classname="exercise.navigation.test" time="1.786" assertions="0">
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

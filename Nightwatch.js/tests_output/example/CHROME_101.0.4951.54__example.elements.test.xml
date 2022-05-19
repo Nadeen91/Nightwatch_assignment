@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="example.example.elements.test"
+    errors="1" failures="0" hostname="" id="" package="example" skipped="0"
+    tests="1" time="21.63" timestamp="">
+  
+    <testcase name="click everything" classname="example.example.elements.test" time="21.63" assertions="0">
+    <error message="An error occurred while running .click() command on &lt;body &gt; app-root &gt; div &gt; div &gt; div &gt; app-login &gt; div &gt; div &gt; form &gt; div:nth-child(3) &gt; div &gt; button&gt;: Timed out while waiting for element &#34;body &gt; app-root &gt; div &gt; div &gt; div &gt; app-login &gt; div &gt; div &gt; form &gt; div:nth-child(3) &gt; div &gt; button&#34; with &#34;css selector&#34; to be present for 5000 milliseconds." type="error"><![CDATA[
+    Error
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\grets\OneDrive\Desktop\Nightwatch.js\Nightwatch.js\tests\example\example.elements.test.js:46:10)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       NoSuchElementError: An error occurred while running .click() command on &lt;body &gt; app-root &gt; div &gt; div &gt; div &gt; app-login &gt; div &gt; div &gt; form &gt; div:nth-child(3) &gt; div &gt; button&gt;: Timed out while waiting for element &#34;body &gt; app-root &gt; div &gt; div &gt; div &gt; app-login &gt; div &gt; div &gt; form &gt; div:nth-child(3) &gt; div &gt; button&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+ {&#34;error&#34;:{&#34;name&#34;:&#34;WebDriverError&#34;,&#34;remoteStacktrace&#34;:&#34;&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+       at DescribeInstance.&lt;anonymous&gt; (C:\Users\grets\OneDrive\Desktop\Nightwatch.js\Nightwatch.js\tests\example\example.elements.test.js:46:10)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
